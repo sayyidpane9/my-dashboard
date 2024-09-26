@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import DataTable from "./table"; // Adjust the import based on your folder structure
+import DataTable from "./table";
 
 const sites = [
   { id: 1, site: "Main Office", employeeTotal: 120 },

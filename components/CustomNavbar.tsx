@@ -48,6 +48,11 @@ function CustomNavbar({
       href: "/survey",
     },
     {
+      name: "Quiz",
+      key: "quiz",
+      href: "/quiz",
+    },
+    {
       name: "Session",
       key: "session",
       href: "/session",

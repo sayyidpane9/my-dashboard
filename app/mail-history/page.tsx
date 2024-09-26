@@ -21,10 +21,10 @@ const Page: React.FC = () => {
   useEffect(() => {
     const fetchEmployees = async () => {
       const dummyData: Employee[] = [
-        { no: 1, email: 'user1@example.com', name: 'Armando', status: 'Aktif', link: '/detail/1' },
-        { no: 2, email: 'user2@example.com', name: 'Phoenix', status: 'Non-Aktif', link: '/detail/2' },
-        { no: 3, email: 'user3@example.com', name: 'Armageddon', status: 'Non-Aktif', link: '/detail/3' },
-        { no: 4, email: 'user4@example.com', name: 'Garaga', status: 'Aktif', link: '/detail/4' },
+        // { no: 1, email: 'user1@example.com', name: 'Armando', status: 'Aktif', link: '/detail/1' },
+        // { no: 2, email: 'user2@example.com', name: 'Phoenix', status: 'Non-Aktif', link: '/detail/2' },
+        // { no: 3, email: 'user3@example.com', name: 'Armageddon', status: 'Non-Aktif', link: '/detail/3' },
+        // { no: 4, email: 'user4@example.com', name: 'Garaga', status: 'Aktif', link: '/detail/4' },
         // ... more data
       ];
       setEmployees(dummyData);

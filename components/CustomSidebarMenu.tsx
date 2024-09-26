@@ -3,6 +3,7 @@ import React from "react";
 import { usePathname, useRouter } from "next/navigation";
 import {
   ArchiveIcon,
+  CountdownTimerIcon,
   DashboardIcon,
   EnvelopeClosedIcon,
   GearIcon,
@@ -47,7 +48,12 @@ const CustomSidebarMenu = () => {
       href: "/survey",
       icon: <Pencil2Icon></Pencil2Icon>,
     },
-
+    {
+      name: "Quiz",
+      key: "quiz",
+      href: "/quiz",
+      icon: <CountdownTimerIcon></CountdownTimerIcon>,
+    },
     {
       name: "Mail History",
       key: "mail-history",
